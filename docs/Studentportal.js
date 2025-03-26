@@ -22,49 +22,49 @@ function validateLogin() {
       // Redirect to A22126551072.html
       showSuccessMessage();
       setTimeout(function () {
-      window.location.href = "../A22126551072/72.html";
+      window.location.href = "A22126551072/72.html";
     }, 3000);
     }
     if (username === "akisaisuryakamaltarun.22.csd@anits.edu.in") {
       // Redirect to A22126551072.html
       showSuccessMessage();
       setTimeout(function () {
-      window.location.href = "../A22126551067/67.html";
+      window.location.href = "A22126551067/67.html";
     }, 3000);
     }
     if (username === "mandapatirohitvarma.22.csd@anits.edu.in") {
       // Redirect to A22126551072.html
       showSuccessMessage();
       setTimeout(function () {
-      window.location.href = "../A22126551092/92.html";
+      window.location.href = "A22126551092/92.html";
     }, 3000);
     }
     if (username === "marridurgaprasad.22.csd@anits.edu.in") {
       // Redirect to A22126551072.html
       showSuccessMessage();
       setTimeout(function () {
-      window.location.href = "../A22126551094/94.html";
+      window.location.href = "A22126551094/94.html";
     }, 3000);
     }
     if (username === "rellimadhu.22.csd@anits.edu.in") {
       // Redirect to A22126551072.html
       showSuccessMessage();
       setTimeout(function () {
-      window.location.href = "../A22126551107/107.html";
+      window.location.href = "A22126551107/107.html";
     }, 3000);
     }
     if (username === "siddanathiroopeshvenkatganesh.22.csd@anits.edu.in") {
       // Redirect to A22126551072.html
       showSuccessMessage();
       setTimeout(function () {
-      window.location.href = "../A22126551114/114.html";
+      window.location.href = "A22126551114/114.html";
     }, 3000);
     }
     if (username === "undelarajasekharreddy.22.csd@anits.edu.in") {
       // Redirect to A22126551072.html
       showSuccessMessage();
       setTimeout(function () {
-      window.location.href = "../A22126551122/122.html";
+      window.location.href = "A22126551122/122.html";
     }, 3000);
     }
     if (username === "velugubantlapraveenkumar.22.csd@anits.edu.in") {
@@ -72,7 +72,7 @@ function validateLogin() {
       // Show success message and wait for 3 seconds before redirecting
       showSuccessMessage();
       setTimeout(function () {
-        window.location.href = "../A22126551125/125.html";
+        window.location.href = "A22126551125/125.html";
       }, 3000);      
     }
 
