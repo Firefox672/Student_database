@@ -15,14 +15,14 @@ function validateLogin() {
   };
 
   var redirectPaths = {
-    "bommalibheemateja.22.csd@anits.edu.in": "A22126551072/72.html",
-    "akisaisuryakamaltarun.22.csd@anits.edu.in": "A22126551067/67.html",
-    "mandapatirohitvarma.22.csd@anits.edu.in": "A22126551092/92.html",
-    "marridurgaprasad.22.csd@anits.edu.in": "A22126551094/94.html",
-    "rellimadhu.22.csd@anits.edu.in": "A22126551107/107.html",
-    "siddanathiroopeshvenkatganesh.22.csd@anits.edu.in": "A22126551114/114.html",
-    "undelarajasekharreddy.22.csd@anits.edu.in": "A22126551122/122.html",
-    "velugubantlapraveenkumar.22.csd@anits.edu.in": "A22126551125/125.html",
+    "bommalibheemateja.22.csd@anits.edu.in": "../A22126551072/72.html",
+    "akisaisuryakamaltarun.22.csd@anits.edu.in": "../A22126551067/67.html",
+    "mandapatirohitvarma.22.csd@anits.edu.in": "../A22126551092/92.html",
+    "marridurgaprasad.22.csd@anits.edu.in": "../A22126551094/94.html",
+    "rellimadhu.22.csd@anits.edu.in": "../A22126551107/107.html",
+    "siddanathiroopeshvenkatganesh.22.csd@anits.edu.in": "../A22126551114/114.html",
+    "undelarajasekharreddy.22.csd@anits.edu.in": "../A22126551122/122.html",
+    "velugubantlapraveenkumar.22.csd@anits.edu.in": "../A22126551125/125.html",
   };
 
   if (users.hasOwnProperty(username) && password === users[username]) {
@@ -32,7 +32,7 @@ function validateLogin() {
       if (redirectPaths.hasOwnProperty(username)) {
         window.location.href = redirectPaths[username];
       } else {
-        window.location.href = "Home/Home.html"; // Default page if no match found
+        window.location.href = "index.html"; // Default page if no match found
       }
     }, 3000);
     
