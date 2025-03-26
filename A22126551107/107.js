@@ -96,7 +96,7 @@ document.addEventListener("DOMContentLoaded", function () {
   attendanceBtn.addEventListener('click', showAttendanceDialog);
 
   function redirectToSubjects() {
-    window.open('Syllabus.pdf', '_blank');
+    window.open('../assets/Syllabus.pdf', '_blank');
   }
 
   subjectsBtn.addEventListener('click', redirectToSubjects);
@@ -105,9 +105,9 @@ document.addEventListener("DOMContentLoaded", function () {
     var resultOption = prompt("Select Results Option:\n1. 1st year 1st sem results\n2. 1st year 2nd sem results");
 
     if (resultOption === '1') {
-      window.open('sem_1.pdf', '_blank');
+      window.open('../assets/sem_1.pdf', '_blank');
     } else if (resultOption === '2') {
-      window.open('sem_2.pdf', '_blank');
+      window.open('../assets/sem_2.pdf', '_blank');
     } else {
       alert('Invalid option selected');
     }
