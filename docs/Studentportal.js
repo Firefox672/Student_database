@@ -14,8 +14,8 @@ function validateLogin() {
   };
 
   var redirectPaths = {
-    "bommalibheemateja.22.csd@anits.edu.in": "A22126551072/72.html",
     "akisaisuryakamaltarun.22.csd@anits.edu.in": "A22126551067/67.html",
+    "bommalibheemateja.22.csd@anits.edu.in": "A22126551072/72.html",
     "mandapatirohitvarma.22.csd@anits.edu.in": "A22126551092/92.html",
     "marridurgaprasad.22.csd@anits.edu.in": "A22126551094/94.html",
     "rellimadhu.22.csd@anits.edu.in": "A22126551107/107.html",
